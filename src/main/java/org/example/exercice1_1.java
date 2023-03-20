@@ -21,7 +21,10 @@ public class exercice1_1 {
 
       JavaRDD<String> rdd2=rdd1.flatMap((line)->Arrays.asList(line.split(" ")).iterator());
 
-        JavaRDD<String> rdd3 =rdd2.filter("")
+        JavaRDD<String> rdd3 =rdd2.filter((line)->line.contains("a"));
+        JavaRDD<String> rdd4 =rdd2.filter((line)->line.contains("h"));
+        JavaRDD<String> rdd5 =rdd3.union(rdd4);
+
 
 
 
