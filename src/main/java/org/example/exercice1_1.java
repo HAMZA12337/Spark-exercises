@@ -23,9 +23,12 @@ public class exercice1_1 {
 
         JavaRDD<String> rdd3 =rdd2.filter((line)->line.contains("a"));
         JavaRDD<String> rdd4 =rdd2.filter((line)->line.contains("h"));
-        JavaRDD<String> rdd5 =rdd3.union(rdd4);
+        JavaRDD<String> rdd5 =rdd2.filter((line)->line.contains("e"));
+        JavaRDD<String> rdd6 =rdd3.union(rdd4);
 
+        // map rdd 6
 
+        JavaRDD<String> rdd7=rdd6.map((value)->value+1);
 
 
 
