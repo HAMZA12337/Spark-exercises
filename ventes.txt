@@ -2,3 +2,7 @@
 2/02/2022 casablanca pantallon 1234
 2/02/2023 rabat samrtphone 1234
 02/02/2024 agadir chemises 1234
+12/02/2021 casablanca chemises 1234
+2/02/2022 casablanca pantallon 1234
+2/02/2021 rabat samrtphone 1234
+02/02/2022 agadir chemises 1234
